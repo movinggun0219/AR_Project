@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Settings/Project Configuration/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/ARScene.unity
-    guid: 862cadaea5763fe4bb93ce83692df533
+    path: Assets/Scenes/BasicFaceFilter.unity
+    guid: 1c53caf92c2b61e4f91c74ad09a6980a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
