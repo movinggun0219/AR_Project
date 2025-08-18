@@ -775,6 +775,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6206005521917638783, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6206005522308777282, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
         type: 3}
       propertyPath: m_TagString
@@ -1084,10 +1089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9244369746329206, guid: bb06fdb1fb08cb749b90ca63f2d77935, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3558622214588209677, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_RootOrder
@@ -1143,21 +1144,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4872882859599065540, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5501190627411350903, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385833055446257681, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_TagString
-      value: GlassMask
-      objectReference: {fileID: 0}
     - target: {fileID: 7616563493354849298, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_Name
@@ -1166,16 +1152,6 @@ PrefabInstance:
     - target: {fileID: 7616563493354849298, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7857745839381011385, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506365408733067884, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
