@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3558622214588209677}
   - component: {fileID: 5501190627411350903}
+  - component: {fileID: -3029966921436091250}
   m_Layer: 0
   m_Name: GlassGroup
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7616563493354849298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48,6 +49,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DestroyOnRemoval: 1
+--- !u!114 &-3029966921436091250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7616563493354849298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1720729192141972210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,7 +139,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7034b87c9fad3ea4f8ae0098c5dd0c99,
         type: 3}
       propertyPath: m_TagString
-      value: GlassStar
+      value: star
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7034b87c9fad3ea4f8ae0098c5dd0c99, type: 3}
@@ -208,7 +224,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6b3199884720a1f429171a2626184a1e,
         type: 3}
       propertyPath: m_TagString
-      value: GlassMask
+      value: mask
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b3199884720a1f429171a2626184a1e, type: 3}
@@ -293,7 +309,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e87105ef60df6aa4787f315cfef25f9a,
         type: 3}
       propertyPath: m_TagString
-      value: GlassSimple
+      value: simple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e87105ef60df6aa4787f315cfef25f9a, type: 3}

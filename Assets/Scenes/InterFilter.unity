@@ -1048,6 +1048,7 @@ GameObject:
   - component: {fileID: 1873107189}
   - component: {fileID: 1873107188}
   - component: {fileID: 1873107191}
+  - component: {fileID: 1873107192}
   m_Layer: 0
   m_Name: Visual Scripts
   m_TagString: Untagged
@@ -1093,6 +1094,8 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material1","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material2","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material3","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"currentGlassesTag","value":null,"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentMaterial","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 242910936}
@@ -1104,6 +1107,7 @@ MonoBehaviour:
     - {fileID: 2100000, guid: afadc7558ec8b4648b0f2a8a0e73c051, type: 2}
     - {fileID: 2100000, guid: d438be69af5c7f9469365fc723aba2f1, type: 2}
     - {fileID: 2100000, guid: 8650c3ddeffc9f54d990cec8579c15c1, type: 2}
+    - {fileID: 5561349426305759274, guid: 0a840f06779b2ea45a882b3c57b12fb7, type: 3}
 --- !u!4 &1873107190
 Transform:
   m_ObjectHideFlags: 0
@@ -1135,6 +1139,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 4257cdeb4fe786d4a8eed0e6fee6e7c1, type: 2}
+--- !u!114 &1873107192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873107187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8437a961a7ee5944daf95381b21f89b1, type: 2}
 --- !u!114 &1935698784 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6206005522389524159, guid: ccc0c063a6b6cb143b63b64a01a0a7b7,
@@ -1154,11 +1174,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1954610362184196003, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_TagString
-      value: star
-      objectReference: {fileID: 0}
     - target: {fileID: 3558622214588209677, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_RootOrder
@@ -1214,11 +1229,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6385833055446257681, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_TagString
-      value: mask
-      objectReference: {fileID: 0}
     - target: {fileID: 7616563493354849298, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_Name
@@ -1227,12 +1237,7 @@ PrefabInstance:
     - target: {fileID: 7616563493354849298, guid: bb06fdb1fb08cb749b90ca63f2d77935,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7857745839381011385, guid: bb06fdb1fb08cb749b90ca63f2d77935,
-        type: 3}
-      propertyPath: m_TagString
-      value: simple
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb06fdb1fb08cb749b90ca63f2d77935, type: 3}
