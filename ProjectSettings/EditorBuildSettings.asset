@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ARMarker.unity
-    guid: 744a8cde71bb90149860cb12d11fc7b9
+    path: Assets/Scenes/ARPortal.unity
+    guid: 51ce9864b422b5e4199657d2bdb156cc
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
